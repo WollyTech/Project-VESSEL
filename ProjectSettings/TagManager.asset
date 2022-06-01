@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Laser
+  - Movement
+  - Dash
+  - Overlay
+  - Ranged
+  - Wall Movement
+  - Light
+  - Heavy
+  - Tank
+  - Levitator
+  - Pure Vessel
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Ground
+  - Player
+  - rangedEnemy
+  - Wall
+  - heavyEnemy
+  - lightEnemy
+  - Levitator
+  - pureVessel
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 3876171359
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Platform
+    uniqueID: 2861169789
+    locked: 0

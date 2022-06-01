@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4031452681584174085
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4031452681584174087}
+  - component: {fileID: 4031452681584174086}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4031452681584174087
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4031452681584174085}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 958.47394, y: 551.04553, z: -312.6614}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4031452681584174086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4031452681584174085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2c40d92f946b0249ba2efff4e52c936, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: MainMenuTheme
+    clip: {fileID: 8300000, guid: b1269a669ab0a0043bdd3a0070dc2f25, type: 3}
+    volume: 0.8
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: TutorialTheme
+    clip: {fileID: 8300000, guid: cc7704f8c9c78a642a57065822f90ec9, type: 3}
+    volume: 0.8
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Level01Theme
+    clip: {fileID: 8300000, guid: 1e706a164556d894bbde49944b3af491, type: 3}
+    volume: 0.8
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: FinalLevelTheme
+    clip: {fileID: 8300000, guid: 943b865da1376454fa06be8a4c727dec, type: 3}
+    volume: 0.8
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Jump
+    clip: {fileID: 8300000, guid: 9f341b52359d7454ca3fb57f31ec802f, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Dash
+    clip: {fileID: 8300000, guid: be8fbb6c672fb8644b8b234c55d56a17, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SwordSwing
+    clip: {fileID: 8300000, guid: fc036049eae444a4793464955870e7cb, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: AxeSwing
+    clip: {fileID: 8300000, guid: 6e01358a79f10ec4b91e1f8311dd43e0, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Shoot
+    clip: {fileID: 8300000, guid: f5908af4e90893541bdadd84902aaf51, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PlayerDeath
+    clip: {fileID: 8300000, guid: f904b3fd48ef5bc439c8586c9715593d, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: EnemyHit
+    clip: {fileID: 8300000, guid: 47fc0de3b39bcce48839a5dece40cc16, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Heavy
+    clip: {fileID: 8300000, guid: 53ffc3c7fcd1edd45a071a42066324eb, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Light
+    clip: {fileID: 8300000, guid: ce0fd25ebe7933047ba39594f7fd24b2, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Ranged
+    clip: {fileID: 8300000, guid: 8792ca7c6dd7b0a4b93ed38d6da16f80, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: TankShoot
+    clip: {fileID: 8300000, guid: 81498c432668250479b4fdb5e0764720, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: LevitatorLaser
+    clip: {fileID: 8300000, guid: 2aa17c5487fdc6c498795029c2ff07f2, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: LevitatorSwing
+    clip: {fileID: 8300000, guid: 886df913e9f3ff2409306b42dab5d173, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PureVesselAxe
+    clip: {fileID: 8300000, guid: 19e60022c0c0e604aae49b493592b761, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PureVesselLight
+    clip: {fileID: 8300000, guid: bae8ec1d71ad9dd408469f13b9835019, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PureVesselShot
+    clip: {fileID: 8300000, guid: 3d1318dc28b1cb542931183e1421a5d2, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  AudioManager: {fileID: 0}
